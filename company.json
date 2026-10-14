@@ -1,0 +1,67 @@
+{
+  "validatedAt": "2026-10-14T10:53:27.890061+00:00",
+  "source": "ANAF",
+  "brand": "SPORTISIMO",
+  "anaf": {
+    "cui": 34185884,
+    "name": "SPORTISIMO RO SRL",
+    "address": "MUNICIPIUL BUCUREŞTI, SECTOR 2, STR DELEA VECHE, NR.24, MODUL M5+M3.1, BL.CORP A, ET.1",
+    "registrationNumber": "J2015002604408",
+    "phone": "0214112442",
+    "fax": "",
+    "postalCode": "24102",
+    "caenCode": "4763",
+    "iban": "",
+    "registrationState": "TRANSFER(SOSIRE) din data 22.01.2026",
+    "registrationDate": "2015-03-04",
+    "fiscalAuthority": "Direcţia Generală de Administrare a Marilor Contribuabili",
+    "ownershipForm": "PROPR.PRIVATA-CAPITAL PRIVAT STRAIN",
+    "organizationForm": "PERSOANA JURIDICA",
+    "legalForm": "SOCIETATE COMERCIALĂ CU RĂSPUNDERE LIMITATĂ",
+    "vatRegistered": true,
+    "vatPeriods": [
+      {
+        "start": "2016-04-01",
+        "end": null,
+        "yearStart": "",
+        "message": ""
+      }
+    ],
+    "cashBasisVat": false,
+    "cashBasisVatStart": null,
+    "cashBasisVatEnd": null,
+    "inactive": false,
+    "inactiveSince": null,
+    "reactivatedSince": null,
+    "splitVat": false,
+    "eFacturaRegistered": false,
+    "headquartersAddress": {
+      "street": "Str. Delea Veche",
+      "number": "24",
+      "locality": "Sector 2 Mun. Bucureşti",
+      "county": "MUNICIPIUL BUCUREŞTI",
+      "country": "",
+      "postalCode": "24102"
+    },
+    "fiscalAddress": {
+      "street": "",
+      "number": "",
+      "locality": "",
+      "county": "",
+      "country": "",
+      "postalCode": ""
+    },
+    "administrators": [],
+    "authorizedCaenCodes": [],
+    "onrcStatus": 0,
+    "onrcStatusLabel": "Funcțiune"
+  },
+  "peviitor": null,
+  "summary": {
+    "company": "SPORTISIMO RO SRL",
+    "cif": "34185884",
+    "active": true,
+    "inactiveSince": null,
+    "address": "MUNICIPIUL BUCUREŞTI, SECTOR 2, STR DELEA VECHE, NR.24, MODUL M5+M3.1, BL.CORP A, ET.1"
+  }
+}

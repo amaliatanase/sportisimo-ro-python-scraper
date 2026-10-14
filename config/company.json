@@ -1,0 +1,10 @@
+{
+  "id": "34185884",
+  "company": "SPORTISIMO RO SRL",
+  "brand": "SPORTISIMO",
+  "status": "activ",
+  "location": ["București"],
+  "website": ["https://www.sportisimo.ro"],
+  "career": ["https://www.ejobs.ro/locuri-de-munca/sportisimo"],
+  "scraperFile": "https://github.com/amaliatanase/sportisimo-ro-python-scraper/actions/workflows/scrape.yml"
+}
