@@ -164,8 +164,10 @@ def parse_listing(html: str, selectors: dict | None = None) -> list[dict]:
             "sportisimo", 
             "raportează conținut ilegal", "raporteaza continut",
             "termeni si conditii", "termeni și condiții",
-            "cele mai noi joburi",
-            "locuri de munca străinătate", "locuri de munca strainatate"
+            "cele mai noi joburi", "joburi",
+            "locuri de munca străinătate", "locuri de munca strainatate",
+            "acord de confidentialitate", "despre cookie-uri",
+            "administreaza cookie-uri", "contact dsa"
         ]
         
         if any(bad in title_lower for bad in bad_titles):
