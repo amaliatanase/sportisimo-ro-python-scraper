@@ -25,7 +25,6 @@ log = logging.getLogger("scraper.parse")
 
 _SEL = scraper["selectors"]
 
-# Romanian ș/ț have no NFD decomposition, so map them explicitly.
 _DIACRITICS = str.maketrans({"ă": "a", "â": "a", "î": "i", "ș": "s", "ş": "s", "ț": "t", "ţ": "t"})
 _NONWORD = re.compile(r"[^a-z0-9]+")
 _HN_RX = re.compile(r"<h[1-4][^>]*>(.*?)</h[1-4]>", re.I | re.S)
@@ -40,9 +39,6 @@ def slugify(text: str) -> str:
     return _NONWORD.sub("-", stripped).strip("-")
 
 
-# Light location hint from the title; the final job model still gets its
-# location re-validated against ROMANIAN_CITIES before upload. Mirrors
-# scraper-js's RO_CITY_HINTS / locationFromTitle exactly.
 RO_CITY_HINTS = [
     "Iași", "Iasi", "București", "Bucuresti", "Cluj", "Timișoara", "Timisoara",
     "Ploiești", "Ploiesti", "Constanța", "Constanta", "Brașov", "Brasov",
@@ -52,20 +48,12 @@ RO_CITY_HINTS = [
 
 
 def location_from_title(title: str, default_location: list[str]) -> list[str]:
-    """Cheap location hint scraped straight from the job title; the caller
-    still runs the result through ``validate_ro_locations`` before upload."""
     for city in RO_CITY_HINTS:
         if re.search(rf"\b{re.escape(city)}\b", title, re.IGNORECASE):
             return [city]
     return default_location
 
 
-# Full Romanian-city allowlist used to sanity-check any job location before
-# it reaches SOLR -- whether it came from location_from_title, raw scraped
-# markup, or ANOFM. Anything not on this list (and not a bare "românia"/
-# "romania") silently degrades to the generic ["România"] fallback instead of
-# uploading noise (a "Remote" tag, a street address, a typo). Kept identical
-# to scraper-js's romanianCities -- this is the JS/Python parity fix.
 ROMANIAN_CITIES = [
     'Bucharest', 'București', 'Bucuresti', 'Cluj-Napoca', 'Cluj Napoca',
     'Timișoara', 'Timisoara', 'Iași', 'Iasi', 'Brașov', 'Brasov',
@@ -84,13 +72,6 @@ _CITY_SET = {c.lower() for c in ROMANIAN_CITIES}
 
 
 def validate_ro_locations(locations: list[str] | None) -> list[str]:
-    """Filters a job's location list down to entries that are either a bare
-    "românia"/"romania" or a known Romanian city, normalizing the country
-    name's casing, and falls back to ``["România"]`` when nothing survives.
-    Port of scraper-js's ``transformJobsForSOLR`` location step -- without
-    it, any location that doesn't exactly match the allowlist (or is simply
-    missing) silently uploads as-is or gets dropped instead of degrading to
-    the safe generic fallback."""
     valid = []
     for loc in (locations or []):
         lower = loc.lower().strip()
@@ -102,7 +83,6 @@ def validate_ro_locations(locations: list[str] | None) -> list[str]:
 
 
 def normalize_workmode(workmode: str | None) -> str | None:
-    """Port of scraper-js's ``normalizeWorkmode``."""
     if not workmode:
         return None
     lower = workmode.lower()
@@ -114,18 +94,10 @@ def normalize_workmode(workmode: str | None) -> str | None:
 
 
 def iso_z(dt: datetime) -> str:
-    """UTC timestamp as ``2026-09-30T23:59:59.000Z`` -- millisecond precision,
-    literal ``Z`` offset. Solr's date fields parse only this exact shape;
-    Python's own ``datetime.isoformat()`` instead emits microseconds and a
-    ``+00:00`` offset (e.g. ``...23:59:59.000000+00:00``), which Solr rejects
-    with a 400. JS's ``Date.prototype.toISOString()`` always produces this
-    shape natively, so this is what keeps the two in parity."""
     return dt.astimezone(timezone.utc).isoformat(timespec="milliseconds").replace("+00:00", "Z")
 
 
 def parse_deadline(text: str | None) -> str | None:
-    """'30.09.2026' -> '2026-09-30T23:59:59.000Z' (end of the closing day).
-    Also accepts an ISO date (schema.org JobPosting ``validThrough``)."""
     if not text:
         return None
     s = str(text)
@@ -144,7 +116,7 @@ def parse_deadline(text: str | None) -> str | None:
             dt = datetime.fromisoformat(m.group(0).replace("Z", "+00:00"))
         except ValueError:
             return None
-        if dt.tzinfo is None:  # a bare date means UTC, not the runner's local tz
+        if dt.tzinfo is None:
             dt = dt.replace(tzinfo=timezone.utc)
         return iso_z(dt)
 
@@ -160,20 +132,15 @@ def _clean_title(raw: str | None) -> str | None:
 
 
 def parse_listing(html: str, selectors: dict | None = None) -> list[dict]:
-    import logging
     from bs4 import BeautifulSoup
-
-    log = logging.getLogger(__name__)
-
+    
     # 1. Parsare specifică pentru paginile eJobs (Sportisimo)
     soup = BeautifulSoup(html, "html.parser")
     items: list[dict] = []
     seen: set[str] = set()
 
-    # Căutăm cardurile de joburi specifice pe eJobs
     job_cards = soup.select("div.card, article, .job-item, [class*='JobCard']")
     if not job_cards:
-        # Fallback general pe elemente care conțin linkuri spre joburi pe eJobs
         job_cards = soup.find_all("a", href=True)
 
     for card in job_cards:
@@ -181,19 +148,33 @@ def parse_listing(html: str, selectors: dict | None = None) -> list[dict]:
         if not href or "/locuri-de-munca/" not in href and "/company/" not in href:
             continue
 
-        # Filtrăm elementele care nu sunt joburi reale (de ex. bannere de alerte, paginare)
         text = card.get_text(" ", strip=True)
         if not text or "nu rata joburile" in text.lower():
             continue
 
         title_el = card.find(["h2", "h3", "h4", "a"])
         title = _clean_title(title_el.get_text() if title_el else text)
-        if not title or len(title) < 3 or "sportisimo" in title.lower() and len(title) < 15:
+        
+        # --- FILTRU PENTRU TITLURI FALSE (FOOTER eJobs) ---
+        if not title or len(title) < 3:
             continue
+            
+        title_lower = title.lower()
+        bad_titles = [
+            "sportisimo", 
+            "raportează conținut ilegal", "raporteaza continut",
+            "termeni si conditii", "termeni și condiții",
+            "cele mai noi joburi",
+            "locuri de munca străinătate", "locuri de munca strainatate"
+        ]
+        
+        if any(bad in title_lower for bad in bad_titles):
+            continue
+        # ---------------------------------------------------
 
         url = href if href.startswith("http") else f"https://www.ejobs.ro{href}"
         
-        key = f"{title.lower()}|{url}"
+        key = f"{title_lower}|{url}"
         if key in seen:
             continue
         seen.add(key)

@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 2, STR DELEA VECHE, NR.24, MODUL M5+M3.1, BL.CORP A, ET.1 |
 | Website | [https://www.sportisimo.ro](https://www.sportisimo.ro) |
 | Careers | [https://www.ejobs.ro/locuri-de-munca/sportisimo](https://www.ejobs.ro/locuri-de-munca/sportisimo) |
-| Last Scraped | 2026-10-14 |
+| Last Scraped | 2026-10-15 |
 
-## Current Job Listings (7)
+## Current Job Listings (8)
 
-_Generated: 2026-10-14T10:53:32.284553+00:00_
+_Generated: 2026-10-15T19:53:31.093733+00:00_
 
 ### Joburi
 
@@ -44,23 +44,30 @@ _Generated: 2026-10-14T10:53:32.284553+00:00_
 - **Location:** București
 - **Status:** scraped
 
-### Cele mai noi joburi
+### Acord de confidentialitate
 
-- **URL:** [https://www.ejobs.ro/locuri-de-munca/sort-publish](https://www.ejobs.ro/locuri-de-munca/sort-publish)
+- **URL:** [https://www.ejobs.ro/locuri-de-munca/sportisimo#privacy-policy](https://www.ejobs.ro/locuri-de-munca/sportisimo#privacy-policy)
 - **Work Mode:** on-site
 - **Location:** București
 - **Status:** scraped
 
-### Locuri de munca Străinătate
+### Despre cookie-uri
 
-- **URL:** [https://www.ejobs.ro/locuri-de-munca/strainatate](https://www.ejobs.ro/locuri-de-munca/strainatate)
+- **URL:** [https://www.ejobs.ro/locuri-de-munca/sportisimo#cookies-policy](https://www.ejobs.ro/locuri-de-munca/sportisimo#cookies-policy)
 - **Work Mode:** on-site
 - **Location:** București
 - **Status:** scraped
 
-### Raportează conținut ilegal
+### Administreaza cookie-uri
 
-- **URL:** [https://www.ejobs.ro/locuri-de-munca/sportisimo#report-job](https://www.ejobs.ro/locuri-de-munca/sportisimo#report-job)
+- **URL:** [https://www.ejobs.ro/locuri-de-munca/sportisimo#cookies](https://www.ejobs.ro/locuri-de-munca/sportisimo#cookies)
+- **Work Mode:** on-site
+- **Location:** București
+- **Status:** scraped
+
+### Contact DSA
+
+- **URL:** [https://www.ejobs.ro/locuri-de-munca/sportisimo#dsaContact](https://www.ejobs.ro/locuri-de-munca/sportisimo#dsaContact)
 - **Work Mode:** on-site
 - **Location:** București
 - **Status:** scraped
