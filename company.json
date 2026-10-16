@@ -1,5 +1,5 @@
 {
-  "validatedAt": "2026-10-15T19:53:25.927570+00:00",
+  "validatedAt": "2026-10-16T05:09:50.851855+00:00",
   "source": "ANAF",
   "brand": "SPORTISIMO",
   "anaf": {
@@ -72,7 +72,7 @@
     ],
     "lastScraped": "2026-10-15",
     "scraperFile": "https://github.com/amaliatanase/sportisimo-ro-python-scraper/actions/workflows/scrape.yml",
-    "_version_": 1879145979294253056,
+    "_version_": 1879146764518293504,
     "_root_": "34185884"
   },
   "summary": {
