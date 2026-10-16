@@ -14,14 +14,7 @@
 
 ## Current Job Listings (3)
 
-_Generated: 2026-10-16T05:09:55.207687+00:00_
-
-### Lucrator Comercial Bacau
-
-- **URL:** [https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-bacau/99249785](https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-bacau/99249785)
-- **Work Mode:** on-site
-- **Location:** România
-- **Status:** scraped
+_Generated: 2026-10-16T10:18:27.022231+00:00_
 
 ### Lucrator Comercial Floresti
 
@@ -35,4 +28,11 @@ _Generated: 2026-10-16T05:09:55.207687+00:00_
 - **URL:** [https://www.ejobs.ro/user/locuri-de-munca/director-magazin-asistent-manager-ramnicu-valcea/1988425](https://www.ejobs.ro/user/locuri-de-munca/director-magazin-asistent-manager-ramnicu-valcea/1988425)
 - **Work Mode:** on-site
 - **Location:** București
+- **Status:** scraped
+
+### Lucrator Comercial Bacau
+
+- **URL:** [https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-bacau/99249785](https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-bacau/99249785)
+- **Work Mode:** on-site
+- **Location:** România
 - **Status:** scraped
