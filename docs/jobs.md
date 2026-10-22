@@ -10,11 +10,18 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 2, STR DELEA VECHE, NR.24, MODUL M5+M3.1, BL.CORP A, ET.1 |
 | Website | [https://www.sportisimo.ro](https://www.sportisimo.ro) |
 | Careers | [https://www.ejobs.ro/locuri-de-munca/sportisimo](https://www.ejobs.ro/locuri-de-munca/sportisimo) |
-| Last Scraped | 2026-10-21 |
+| Last Scraped | 2026-10-22 |
 
 ## Current Job Listings (3)
 
-_Generated: 2026-10-21T10:47:00.672650+00:00_
+_Generated: 2026-10-22T10:48:06.858853+00:00_
+
+### Lucrator Comercial Bacau
+
+- **URL:** [https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-bacau/99249785](https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-bacau/99249785)
+- **Work Mode:** on-site
+- **Location:** România
+- **Status:** scraped
 
 ### Lucrator Comercial Floresti
 
@@ -28,11 +35,4 @@ _Generated: 2026-10-21T10:47:00.672650+00:00_
 - **URL:** [https://www.ejobs.ro/user/locuri-de-munca/director-magazin-asistent-manager-ramnicu-valcea/1988425](https://www.ejobs.ro/user/locuri-de-munca/director-magazin-asistent-manager-ramnicu-valcea/1988425)
 - **Work Mode:** on-site
 - **Location:** București
-- **Status:** scraped
-
-### Lucrator Comercial Bacau
-
-- **URL:** [https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-bacau/99249785](https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-bacau/99249785)
-- **Work Mode:** on-site
-- **Location:** România
 - **Status:** scraped
