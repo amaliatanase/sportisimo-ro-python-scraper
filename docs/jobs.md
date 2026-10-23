@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 2, STR DELEA VECHE, NR.24, MODUL M5+M3.1, BL.CORP A, ET.1 |
 | Website | [https://www.sportisimo.ro](https://www.sportisimo.ro) |
 | Careers | [https://www.ejobs.ro/locuri-de-munca/sportisimo](https://www.ejobs.ro/locuri-de-munca/sportisimo) |
-| Last Scraped | 2026-10-22 |
+| Last Scraped | 2026-10-23 |
 
 ## Current Job Listings (3)
 
-_Generated: 2026-10-22T10:48:06.858853+00:00_
+_Generated: 2026-10-23T10:40:06.043808+00:00_
 
 ### Lucrator Comercial Bacau
 
@@ -23,16 +23,16 @@ _Generated: 2026-10-22T10:48:06.858853+00:00_
 - **Location:** România
 - **Status:** scraped
 
-### Lucrator Comercial Floresti
+### Director Magazin - Satu-Mare
 
-- **URL:** [https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-floresti/1989602](https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-floresti/1989602)
+- **URL:** [https://www.ejobs.ro/user/locuri-de-munca/director-magazin-satu-mare/99251621](https://www.ejobs.ro/user/locuri-de-munca/director-magazin-satu-mare/99251621)
 - **Work Mode:** on-site
 - **Location:** București
 - **Status:** scraped
 
-### Director Magazin/ Asistent Manager - Ramnicu Valcea
+### Lucrator Comercial Floresti
 
-- **URL:** [https://www.ejobs.ro/user/locuri-de-munca/director-magazin-asistent-manager-ramnicu-valcea/1988425](https://www.ejobs.ro/user/locuri-de-munca/director-magazin-asistent-manager-ramnicu-valcea/1988425)
+- **URL:** [https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-floresti/1989602](https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-floresti/1989602)
 - **Work Mode:** on-site
 - **Location:** București
 - **Status:** scraped
