@@ -1,5 +1,5 @@
 {
-  "validatedAt": "2026-10-24T09:57:17.367820+00:00",
+  "validatedAt": "2026-10-25T10:20:11.500663+00:00",
   "source": "ANAF",
   "brand": "SPORTISIMO",
   "anaf": {
@@ -70,9 +70,9 @@
     "career": [
       "https://www.ejobs.ro/locuri-de-munca/sportisimo"
     ],
-    "lastScraped": "2026-10-23",
+    "lastScraped": "2026-10-24",
     "scraperFile": "https://github.com/amaliatanase/sportisimo-ro-python-scraper/actions/workflows/scrape.yml",
-    "_version_": 1879836723776585728,
+    "_version_": 1879924631550296064,
     "_root_": "34185884"
   },
   "summary": {
