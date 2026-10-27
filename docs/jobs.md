@@ -10,15 +10,15 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 2, STR DELEA VECHE, NR.24, MODUL M5+M3.1, BL.CORP A, ET.1 |
 | Website | [https://www.sportisimo.ro](https://www.sportisimo.ro) |
 | Careers | [https://www.ejobs.ro/locuri-de-munca/sportisimo](https://www.ejobs.ro/locuri-de-munca/sportisimo) |
-| Last Scraped | 2026-10-26 |
+| Last Scraped | 2026-10-27 |
 
 ## Current Job Listings (3)
 
-_Generated: 2026-10-26T11:47:44.464626+00:00_
+_Generated: 2026-10-27T11:13:23.417273+00:00_
 
-### Lucrator Comercial Bistrita
+### Director Magazin - Satu-Mare
 
-- **URL:** [https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-bistrita/99252231](https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-bistrita/99252231)
+- **URL:** [https://www.ejobs.ro/user/locuri-de-munca/director-magazin-satu-mare/99251621](https://www.ejobs.ro/user/locuri-de-munca/director-magazin-satu-mare/99251621)
 - **Work Mode:** on-site
 - **Location:** București
 - **Status:** scraped
@@ -30,9 +30,9 @@ _Generated: 2026-10-26T11:47:44.464626+00:00_
 - **Location:** România
 - **Status:** scraped
 
-### Director Magazin - Satu-Mare
+### Lucrator Comercial Bistrita
 
-- **URL:** [https://www.ejobs.ro/user/locuri-de-munca/director-magazin-satu-mare/99251621](https://www.ejobs.ro/user/locuri-de-munca/director-magazin-satu-mare/99251621)
+- **URL:** [https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-bistrita/99252231](https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-bistrita/99252231)
 - **Work Mode:** on-site
 - **Location:** București
 - **Status:** scraped
