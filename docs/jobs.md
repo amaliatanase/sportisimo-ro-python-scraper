@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 2, STR DELEA VECHE, NR.24, MODUL M5+M3.1, BL.CORP A, ET.1 |
 | Website | [https://www.sportisimo.ro](https://www.sportisimo.ro) |
 | Careers | [https://www.ejobs.ro/locuri-de-munca/sportisimo](https://www.ejobs.ro/locuri-de-munca/sportisimo) |
-| Last Scraped | 2026-11-01 |
+| Last Scraped | 2026-11-02 |
 
 ## Current Job Listings (3)
 
-_Generated: 2026-11-01T12:14:53.229672+00:00_
+_Generated: 2026-11-02T14:05:07.408575+00:00_
 
 ### Lucrator Comercial Bistrita
 
