@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 2, STR DELEA VECHE, NR.24, MODUL M5+M3.1, BL.CORP A, ET.1 |
 | Website | [https://www.sportisimo.ro](https://www.sportisimo.ro) |
 | Careers | [https://www.ejobs.ro/locuri-de-munca/sportisimo](https://www.ejobs.ro/locuri-de-munca/sportisimo) |
-| Last Scraped | 2026-11-04 |
+| Last Scraped | 2026-11-05 |
 
 ## Current Job Listings (3)
 
-_Generated: 2026-11-04T13:26:51.905511+00:00_
+_Generated: 2026-11-05T13:40:40.343168+00:00_
 
 ### Lucrator Comercial Bistrita
 
@@ -30,9 +30,9 @@ _Generated: 2026-11-04T13:26:51.905511+00:00_
 - **Location:** București
 - **Status:** scraped
 
-### Lucrator Comercial Bacau
+### Lucrator Comercial Pitesti / Ploiesti
 
-- **URL:** [https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-bacau/99249785](https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-bacau/99249785)
+- **URL:** [https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-pitesti-ploiesti/99254402](https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-pitesti-ploiesti/99254402)
 - **Work Mode:** on-site
-- **Location:** România
+- **Location:** Ploiesti
 - **Status:** scraped
