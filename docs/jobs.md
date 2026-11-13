@@ -10,18 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 2, STR DELEA VECHE, NR.24, MODUL M5+M3.1, BL.CORP A, ET.1 |
 | Website | [https://www.sportisimo.ro](https://www.sportisimo.ro) |
 | Careers | [https://www.ejobs.ro/locuri-de-munca/sportisimo](https://www.ejobs.ro/locuri-de-munca/sportisimo) |
-| Last Scraped | 2026-11-12 |
+| Last Scraped | 2026-11-13 |
 
 ## Current Job Listings (3)
 
-_Generated: 2026-11-12T14:11:09.645706+00:00_
-
-### Lucrator Comercial Pitesti / Ploiesti / Tulcea
-
-- **URL:** [https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-pitesti-ploiesti-tulcea/99254402](https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-pitesti-ploiesti-tulcea/99254402)
-- **Work Mode:** on-site
-- **Location:** Ploiesti
-- **Status:** scraped
+_Generated: 2026-11-13T13:34:52.443584+00:00_
 
 ### Lucrator Comercial Bistrita
 
@@ -35,4 +28,11 @@ _Generated: 2026-11-12T14:11:09.645706+00:00_
 - **URL:** [https://www.ejobs.ro/user/locuri-de-munca/director-magazin-satu-mare/99251621](https://www.ejobs.ro/user/locuri-de-munca/director-magazin-satu-mare/99251621)
 - **Work Mode:** on-site
 - **Location:** București
+- **Status:** scraped
+
+### Lucrator Comercial Pitesti / Ploiesti / Tulcea
+
+- **URL:** [https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-pitesti-ploiesti-tulcea/99254402](https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-pitesti-ploiesti-tulcea/99254402)
+- **Work Mode:** on-site
+- **Location:** Ploiesti
 - **Status:** scraped
