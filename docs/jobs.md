@@ -10,11 +10,11 @@
 | Location | MUNICIPIUL BUCUREŞTI, SECTOR 2, STR DELEA VECHE, NR.24, MODUL M5+M3.1, BL.CORP A, ET.1 |
 | Website | [https://www.sportisimo.ro](https://www.sportisimo.ro) |
 | Careers | [https://www.ejobs.ro/locuri-de-munca/sportisimo](https://www.ejobs.ro/locuri-de-munca/sportisimo) |
-| Last Scraped | 2026-11-19 |
+| Last Scraped | 2026-11-20 |
 
 ## Current Job Listings (7)
 
-_Generated: 2026-11-19T14:52:02.040902+00:00_
+_Generated: 2026-11-20T14:33:24.246027+00:00_
 
 ### Lucrator Comercial Satu Mare
 
@@ -30,11 +30,11 @@ _Generated: 2026-11-19T14:52:02.040902+00:00_
 - **Location:** București
 - **Status:** scraped
 
-### Lucrator Comercial Pitesti / Ploiesti / Tulcea
+### Director Magazin - Satu-Mare
 
-- **URL:** [https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-pitesti-ploiesti-tulcea/99254402](https://www.ejobs.ro/user/locuri-de-munca/lucrator-comercial-pitesti-ploiesti-tulcea/99254402)
+- **URL:** [https://www.ejobs.ro/user/locuri-de-munca/director-magazin-satu-mare/99251621](https://www.ejobs.ro/user/locuri-de-munca/director-magazin-satu-mare/99251621)
 - **Work Mode:** on-site
-- **Location:** Ploiesti
+- **Location:** București
 - **Status:** scraped
 
 ### Locuri de muncă remote
